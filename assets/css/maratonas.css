@@ -1,0 +1,185 @@
+
+.content {
+  margin-bottom: 10rem;
+  padding: 10px;
+}
+
+
+p { 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 0.9em;
+}
+p::selection {
+  color: white;
+  background-color: orange;
+}
+p::-moz-selection {
+  color: white;
+  background-color: orange;
+}
+p strong::selection {
+  color:white;
+  background-color:#D4A300;
+}
+p strong::-moz-selection {
+  color:white;
+  background-color:#D4A300;
+}
+
+.titulo {
+  margin-bottom: 2.2rem;
+}
+
+
+.sinopse {padding: 0;}
+
+.menu {
+  margin-top: 5rem;
+}
+
+
+
+ul {
+
+  list-style: none;
+  color: white;
+  padding: 30px;
+}
+li {
+  padding: 0 25px 10px 10px;
+  font-size: 1em;
+}
+li a {
+  font-family: "Rokkitt", sans-serif !important;
+}
+.destak {
+  background-color: rgb(227,6,20) !important; 
+  letter-spacing: 0.4px;
+  }
+
+.destak:hover {background-color: rgb(190,6,20) !important; border: 1px solid rgb(227,6,20)}
+
+.tabs {
+  padding: 0;
+  font-weight: 400; 
+  color:white;
+  font-size: 0.7em;
+}
+.menu .tab-title {float:none !important;}
+.menu-small .tab-title {float:left;}
+
+.tabs .tab-title > a {
+  padding: 0.1rem 0.8rem  !important;
+  color:white;
+  display:initial;
+}
+.tabs .tab-title.active a {
+  color:white;
+  background-color: rgb(190,6,20) !important;
+  border: 1px solid rgb(227,6,20);
+}
+
+.f-dropdown {
+  background:rgb(227,6,20); margin-left: 0; padding: 0; border: 0; margin-top:10px;
+}
+
+.f-dropdown li a {color: white; padding:0.3rem;}
+.f-dropdown li:hover {background-color: rgb(190,6,20) !important}
+
+.f-dropdown:before {
+  border-color: transparent transparent rgb(227,6,20) transparent;
+}
+.f-dropdown:after {
+  border-color: transparent transparent rgb(227,6,20) transparent;
+}
+.logo {
+  display: block;
+  float: right;
+  max-width: 190px;
+}
+@media only screen and (min-width: 40.063em) { 
+  .logo { margin-top: 10em;}
+  .livro { margin: 10.5em 0 0 2em; width: 14em;}
+  .titulo { margin-top: 15em;}
+}
+
+.read {
+  font-family:'Rokkitt', sans-serif; 
+  font-weight: 400; 
+  padding-left: 1rem; 
+  margin-top: 3rem;
+}
+
+.ney {
+  margin-top: 8px;
+  margin-bottom:10px;
+}
+
+.fotos1 {
+  margin-top: 7rem;
+  margin-bottom: 40px;
+}
+
+.fotos2 {
+  margin-top: 9.5rem;
+}
+
+.share {
+  margin-bottom: 10em;
+}
+.share p {
+  font-family: 'Rokkitt', sans-serif !important;
+  letter-spacing: 0.7px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.share a img {
+  max-height: 40px;
+  margin-right: 10px;
+  opacity: 1;
+  display: inline;
+}
+
+.share a img:hover {
+  opacity: 1;
+}
+
+#onhover {
+  display:none;
+}
+
+.facebook a:hover img:first-child {
+  display: none;
+}
+.facebook a img:last-child {
+  display: none;
+}
+.facebook a:hover img:last-child {
+  display: inline;
+}
+
+.email a:hover img:first-child {
+  display:none;
+}
+.email a img:last-child {
+  display: none;
+}
+.email a:hover img:last-child {
+  display: inline;
+}
+
+.reveal-modal, dialog {
+  background-color: transparent !important;
+  border: none !important;
+
+}
+
+@media only screen and (min-width: 64.063em) { footer {
+  margin-bottom: 25em;
+}
+}
+div#contato {background-color: white!important;}
+.center {margin-left:auto;margin-right:auto;}
